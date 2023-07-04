@@ -33,6 +33,10 @@ code {
   z-index: 2;
 }
 
+.App-logo {
+  z-index: 2;
+}
+
 .App-container::before {
   content: "";
   position: absolute;
