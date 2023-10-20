@@ -8,6 +8,7 @@ export default function ProjectsPage() {
         <li>
           <Link to="borderAnimation">Border animation</Link>
         </li>
+        <li>other</li>
       </ul>
       <Outlet />
     </>

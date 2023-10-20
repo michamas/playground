@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import css from "./Navigation.module.css";
 
-export default function Navigation() {
+export const Navigation = () => {
   return (
     <nav className={css.bar}>
       <NavLink className={css.link} to="/">
@@ -13,6 +13,9 @@ export default function Navigation() {
       <NavLink className={css.link} to="/projects">
         Projects
       </NavLink>
+      <NavLink className={css.link} to="/projects">
+        Other
+      </NavLink>
     </nav>
   );
-}
+};
