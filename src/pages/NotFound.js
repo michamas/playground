@@ -1,3 +1,3 @@
 export default function NotFound() {
-  return <div>NOT FOUND!</div>;
+  return <div className="App-container">NOT FOUND!</div>;
 }

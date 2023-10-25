@@ -1,11 +1,11 @@
 export default function HomePage() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="App-container">
-          <h2 className="App-text">HomePage</h2>
-        </div>
-      </header>
-    </div>
+    <>
+      <div className="App-main">
+        <header className="App-logo">
+          <h2 className="App-title">PLAYGROUND</h2>
+        </header>
+      </div>
+    </>
   );
 }
