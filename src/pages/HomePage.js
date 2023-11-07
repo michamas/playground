@@ -2,9 +2,10 @@ export default function HomePage() {
   return (
     <>
       <div className="App-main">
-        <header className="App-logo">
-          <h2 className="App-title">PLAYGROUND</h2>
-        </header>
+        <div className="App-logo">
+          <h1 className="App-title">Welcome to my playground</h1>
+        </div>
+        <div className="App-logo ">Explore</div>
       </div>
     </>
   );

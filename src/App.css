@@ -2,18 +2,19 @@
 } */
 
 .App-main {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .App-container {
   margin-top: 50px;
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +25,8 @@
 
 .App-title {
   color: white;
+  text-transform: uppercase;
+  cursor: none;
 }
 
 .App-logo {
@@ -32,13 +35,14 @@
   justify-content: center;
   align-items: center;
   width: 300px;
-  height: 300px;
+  /* height: 300px; */
   background-color: blueviolet;
-  clip-path: ellipse(49% 32% at 50% 50%);
+  clip-path: ellipse(49% 3% at 50% 50%);
   transition: all 2s ease;
+  padding: 30px;
 }
 
 .App-logo:hover {
-  clip-path: ellipse(49% 40% at 50% 50%);
+  clip-path: ellipse(49% 50% at 50% 50%);
   cursor: none;
 }

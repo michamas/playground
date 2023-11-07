@@ -2,7 +2,7 @@ export default function AboutPage() {
   return (
     <>
       <div className="App-container">
-        <h2 className="App-title">About</h2>
+        <h1 className="App-title">About</h1>
 
         <section className="App-text">
           I'm an enthusiastic person, currently finishing FullStack Developer
