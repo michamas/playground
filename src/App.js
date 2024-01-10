@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import NotFound from "./pages/NotFound.js";
 import ProjectsPage from "./pages/ProjectsPage.js";
 import { Navigation, BorderAnimation } from "./components";
-import { Feedback } from "./components/Feedback/Feedback.jsx";
+import { FeedbackApp } from "./components/Feedback/FeedbackApp/FeedbackApp.jsx";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />}>
           <Route path="borderAnimation" element={<BorderAnimation />} />
-          <Route path="feedback" element={<Feedback />} />
+          <Route path="feedback" element={<FeedbackApp />} />
         </Route>
         <Route path="/about" element={<AboutPage />} />
         <Route path="*" element={<NotFound />} />
